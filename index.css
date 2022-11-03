@@ -38,7 +38,15 @@ padding-left:10px;
 line-height:140%;
 color:#ffffff;
 }
-#contents {
+#contents1 {
+margin:0px auto 0px auto;
+padding:30px 0px 0px 0px;
+width:694px;
+line-height:150%;
+color:#333333;
+font-size:14px;
+}
+#contents2 {
 margin:0px auto 0px auto;
 padding:30px 0px 0px 0px;
 width:694px;
@@ -53,7 +61,10 @@ padding: 0;
 li {
 list-style:disk; 
 }
-
+#contents2 li{
+    list-style:circle;
+    margin-left: 20px;
+}
 P {
 margin:1em 0 1em 0;
 line-height:150%;
@@ -92,7 +103,8 @@ h2 {
 font-size:16px;
 margin:0px 0px 0px 0px;
 padding:4px 0px 4px 7px;
-border-bottom:2px solid #999999;
+border-bottom:2px solid #6d6d6d;
+border-left:2px solid#007e91;
 }
 .green {
 color:#008800;
@@ -103,18 +115,15 @@ margin:0px auto 0px auto;
 padding:10px 0px 20px 0px;
 width:694px;
 }
-.side-title {
-width:540px;
-padding:4px 10px 4px 10px;
-background-color:#f1f1f1;
-font-weight:bold;
-border:1px solid #999999;
-margin-bottom:10px;
+.side-menu {
+width:650px;
+padding: 0.5em 1em;
+margin: 2em 0;
+background: #f0f7ff;
+border: dashed 2px #5b8bd0;/*点線*/
 }
-.side {
-margin:0px 0px 10px 0px;
-padding:2px 8px 8px 7px;
-line-height:150%;
+.side-menu h2 {
+    border:none;
 }
 ul {
 margin: 0 0 0 1em;
@@ -130,9 +139,15 @@ height:100px;
 clear:left;
 text-align:center;
 }
+#link{
+    text-align: right;
+}
 blockquote{
 border:1px solid #ccc;
 padding:5px;
 margin:10px;
+}
+#contents2 img{
+    width: 670px;
 }
 
