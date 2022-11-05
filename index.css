@@ -18,7 +18,7 @@ background-color:#214555;
 	clear: both;
 }
 #head-inner1 {
-margin:0px auto 0px auto;
+margin:0px auto 0px 70px;
 padding:10px 0px 0px 0px;
 width:200px;
 background-color:#214555;
@@ -31,6 +31,13 @@ padding:10px 0px 0px 0px;
 width:100px;
 background-color:#214555;
 padding:10px;
+float: left;
+}
+#head-inner3 {
+margin:0px auto 0px auto;
+padding:50px 0px 0px 0px;
+width:200px;
+background-color:#214555;
 float: left;
 }
 .description {
