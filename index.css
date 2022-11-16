@@ -1,163 +1,146 @@
 body {
-margin:0px;
-padding:0px;
-text-align:center;
-background-color: #f0f7ff;;
+    margin: 0px;
+    padding: 0px;
+    /* text-align: center; */
+    background-color: #f0f7ff;
+    font-size: 13px;
+    line-height: 150%;
+    text-align: left;
+}
 
+header {
+    text-align: left;
+    background-color: #214555;
 }
-#outer {
-font-size:13px;
-line-height:150%;
-text-align:left;
-}
-#header {
-text-align:left;
-background-color:#214555;
-}
-#header:after{
+
+header:after {
     content: "";
-	display: block;
-	clear: both;
+    display: block;
+    clear: both;
 }
+
 #head-inner1 {
-margin:0px auto 0px 100px;
-width:200px;
-background-color:#214555;
-padding:5px;
-float:left;
+    margin: 0px auto 0px 100px;
+    width: 200px;
+    background-color: #214555;
+    padding: 5px;
+    float: left;
 }
+
 #head-inner2 {
-margin:0px auto 0px auto;
-width:100px;
-background-color:#214555;
-padding:5px;
-float: left;
+    margin: 0px auto 0px auto;
+    width: 100px;
+    background-color: #214555;
+    padding: 5px;
+    float: left;
 }
+
 #head-inner3 {
-margin:0px auto 0px auto;
-padding:40px 0px 0px 0px;
-width:200px;
-background-color:#214555;
-float: left;
+    margin: 0px auto 0px auto;
+    padding: 40px 0px 0px 0px;
+    width: 200px;
+    background-color: #214555;
+    float: left;
 }
-.description {
-padding-left:10px;
-line-height:140%;
-color:#ffffff;
+
+main {
+    display: flex;
+    min-height: 100vh;
 }
-#contents1 {
-margin:0px auto 0px auto;
-padding:30px 0px 0px 0px;
-width:740px;
-line-height:150%;
-color:#333333;
-font-size:14px;
+
+.localNavigation {
+    flex: 1;
+    text-align: center;
+    background-color: #888;
+    color: #fff;
 }
-#contents2 {
-margin:0px auto 0px auto;
-padding:30px 0px 0px 0px;
-width:740px;
-line-height:150%;
-color:#333333;
-font-size:14px;
+
+.content {
+    /* flex: 2; */
+    width: 70%;
+    margin: 0px 10px 0px 10px;
+    padding: 30px 0px 0px 0px;
+    line-height: 150%;
+    color: #333333;
+    font-size: 18px;
 }
-ul {
-margin: 0 0 0 1em;
-padding: 0;
+
+.content p {
+    text-indent: 1em;
 }
-li {
-list-style:disk; 
-}
-#contents2 li{
-    list-style:circle;
+
+.content li {
+    list-style: circle;
     margin-left: 20px;
 }
-P {
-margin:1em 0 1em 0;
-line-height:150%;
-}
-img{
-border:0px;
-}
-hr {
-border-width: 1px 0px 0px 0px;
-border-style: solid;
-border-color: #cccccc;
-height: 1px;
-}
-a{
-font-weight:normal;
-}
-h1 {
-font-size:24px;
-font-weight:bold;
-text-align:left;
-padding:30px 0px 0px 10px;
-margin:0px;
-color:#ffffff;
-}
-h1 a{
-font-weight:bold;
-color:#ffffff;
-text-decoration:none;
-}
-h1 a:hover{
-font-weight:bold;
-color:#ffffff;
-text-decoration:underline;
-}
-h2 {
-font-size:16px;
-margin:0px 0px 0px 0px;
-padding:4px 0px 4px 7px;
-border-bottom:2px solid #6d6d6d;
-border-left:2px solid#007e91;
-}
-.green {
-color:#008800;
-font-weight:bold;
-}
-#middle {
-margin:0px auto 0px auto;
-padding:10px 0px 20px 0px;
-width:694px;
-}
-.side-menu {
-width:650px;
-padding: 0.5em 1em;
-margin: 2em 0;
-background: #f0f7ff;
-border: dashed 2px #5b8bd0;/*点線*/
-}
-.side-menu h2 {
-    border:none;
-}
-ul {
-margin: 0 0 0 1em;
-padding: 0;
-}
-li {
-list-style:disk; 
-}
 
-#footer {
-font-size:12px;
-height:100px;
-clear:left;
-text-align:center;
-}
-#link{
-    text-align: right;
-}
-blockquote{
-border:1px solid #ccc;
-padding:5px;
-margin:10px;
-}
-.img{
+footer {
+    font-size: 12px;
+    height: 80px;
+    color: #fff;
+    clear: left;
     text-align: center;
-}
-#contents2 img{
-    width: 670px;
+    background-color: #214555;
 }
 
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    padding: 30px 0px 0px 10px;
+    margin: 0px;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 25px;
+    margin: 0px 0px 0px 0px;
+    padding: 4px 0px 4px 7px;
+    border-bottom: 2px solid #6d6d6d;
+    border-left: 2px solid#007e91;
+}
+
+.description {
+    padding-left: 10px;
+    line-height: 140%;
+    color: #ffffff;
+}
+
+.side-menu {
+    width: 80%;
+    padding: 0.5em 1em;
+    margin: auto;
+    margin-bottom: 36px;
+    background: #f0f7ff;
+    border: dashed 2px #5b8bd0;
+    /*点線*/
+}
+
+.side-menu h2 {
+    border: none;
+}
+
+.side-menu li {
+    list-style: disk;
+    font-size: 16px;
+}
+
+.img {
+    text-align: center;
+    margin: 1em 0;
+}
+
+.content img {
+    width: 80%;
+}
+
+hr {
+    border-width: 1px 0px 0px 0px;
+    border-style: solid;
+    border-color: #cccccc;
+    height: 1px;
+}
+
+.article {
+    margin: 1em 0;
+}
