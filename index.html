@@ -16,37 +16,43 @@
 </head>
 
 <body>
-
-    <div id="outer">
-        <div id="header">
-            <div id="head-inner1">
-                <h1>そららぼ</h1>
-                <p class="description">自作のDiscordBotを紹介します</p>
-            </div>
-            <div id="head-inner2">
-                <img src="img/23da35dde00b5628254aee7cd0fc6cdb.gif" alt="らてぃ">
-            </div>
-            <div id="head-inner3">
-                <p class="description">twitter&nbsp;→&nbsp;<a href="https://twitter.com/Sora_Yoon0052" target="_blank"
-                        style="color: rgb(255, 213, 161);">@Sora_Yoon0052</a>&ensp;discord&nbsp;→&nbsp;<a
-                        href="https://discord.com/users/713420906717904937" target="_blank"
-                        style="color: rgb(255, 213, 161);">ｿﾗ#4793</a></p>
-            </div>
+    <header class="grovalNavigation">
+        <div id="head-inner1">
+            <h1>そららぼ</h1>
+            <p class="description">自作のDiscordBotを紹介します</p>
         </div>
-        <div class="container">
-            <div id="contents1">
+        <div id="head-inner2">
+            <img src="img/23da35dde00b5628254aee7cd0fc6cdb.gif" alt="らてぃ">
+        </div>
+        <div id="head-inner3">
+            <p class="description">twitter&nbsp;→&nbsp;<a href="https://twitter.com/Sora_Yoon0052" target="_blank"
+                    style="color: rgb(255, 213, 161);">@Sora_Yoon0052</a>&ensp;discord&nbsp;→&nbsp;<a
+                    href="https://discord.com/users/713420906717904937" target="_blank"
+                    style="color: rgb(255, 213, 161);">ｿﾗ#4793</a></p>
+        </div>
+    </header>
+    <main>
+
+        <div class="localNavigation">
+            <p></p>
+        </div>
+
+
+        <div class="content">
+            <div class="container">
+
                 <h2>はじめに</h2>
-                <p>どうもソラです。スプラトゥーン3の発売もありDiscordの鯖でゲームをすることが増えました。
-                    <br><br>
-                    最近はDiscordのbot作成にハマっており、<a href="https://repl.it/"
+                <p>
+                    どうもソラです。スプラトゥーン3の発売もありDiscordの鯖でゲームをすることが増えました。
+                </p>
+                <p>最近はDiscordのbot作成にハマっており、<a href="https://repl.it/"
                         target="_blank">replit</a>というサイトでNode.jsを利用して開発しています。
                     暇さえあればコードを書いているので機能も増えてゆき、自分でも整理ができなくなってきました。
-                    <br><br>
+                </p>
+                <p>
                     そこで当サイトでは各botの機能・使用方法をメモとして残そうと思います。また、一部のbotの鯖導入リンクも公開します。
                     オンライン時は基本的に利用できますので導入したいものがありましたら是非どうぞ。
                 </p>
-            </div>
-            <div id="middle">
                 <div class="side-menu">
                     <h2>menu</h2>
                     <ul>
@@ -57,129 +63,141 @@
                         <li><a href="#samon">サーモンランタイマーbot</a></li>
                     </ul>
                 </div>
-            </div>
-            <div id="contents2">
-                <h2 id="rand">ランダムブキbot</h2>
-                <p>
-                    スプラトゥーン3用ランダムブキ返答botです🦑初めて作ったbotになります。<br>
-                    導入したサーバーで以下のコマンドを打つと動きます。<br><br>
+                <div class="article">
+                    <h2 id="rand">ランダムブキbot</h2>
+                    <p>
+                        スプラトゥーン3用ランダムブキ返答botです🦑初めて作ったbotになります。
+                        導入したサーバーで以下のコマンドを打つと動きます。
+                    </p>
                     【入力コマンド一覧】
-                <ul>
-                    <li>「ブキ」・・・全ブキからランダムに一つ値を返す</li>
-                    <li>「シューター」・・・シューターからランダムに一つ値を返す</li>
-                    <li>「チャージャー」・・・チャージャーからランダムに一つ値を返す</li>
-                    <li>「ブラスター」・・・ブラスターからランダムに一つ値を返す</li>
-                    <li>「ローラー」・・・ローラーからランダムに一つ値を返す</li>
-                    <li>「フデ」・・・フデからランダムに一つ値を返す</li>
-                    <li>「スロッシャー」・・・スロッシャーからランダムに一つ値を返す</li>
-                    <li>「スピナー」・・・スピナーからランダムに一つ値を返す</li>
-                    <li>「マニューバー」・・・マニューバーからランダムに一つ値を返す</li>
-                    <li>「シェルター」・・・シェルターからランダムに一つ値を返す</li>
-                    <li>「ワイパー」・・・ワイパーからランダムに一つ値を返す</li>
-                    <li>「ストリンガー」・・・各ブキ種からランダムに一つ値を返す</li>
-                    <li>「rw!h」・・・コマンド一覧を表示する</li>
-                </ul>
-                <br>
-                【使用例】<br><br>
-                <div class="img">
-                    <img src="img/140817.png" alt="rwbot">
+                    <ul>
+                        <li>「ブキ」・・・全ブキからランダムに一つ値を返す</li>
+                        <li>「シューター」・・・シューターからランダムに一つ値を返す</li>
+                        <li>「チャージャー」・・・チャージャーからランダムに一つ値を返す</li>
+                        <li>「ブラスター」・・・ブラスターからランダムに一つ値を返す</li>
+                        <li>「ローラー」・・・ローラーからランダムに一つ値を返す</li>
+                        <li>「フデ」・・・フデからランダムに一つ値を返す</li>
+                        <li>「スロッシャー」・・・スロッシャーからランダムに一つ値を返す</li>
+                        <li>「スピナー」・・・スピナーからランダムに一つ値を返す</li>
+                        <li>「マニューバー」・・・マニューバーからランダムに一つ値を返す</li>
+                        <li>「シェルター」・・・シェルターからランダムに一つ値を返す</li>
+                        <li>「ワイパー」・・・ワイパーからランダムに一つ値を返す</li>
+                        <li>「ストリンガー」・・・各ブキ種からランダムに一つ値を返す</li>
+                        <li>「rw!h」・・・コマンド一覧を表示する</li>
+                    </ul>
+                    【使用例】
+                    <div class="img">
+                        <img src="img/140817.png" alt="rwbot">
+                    </div>
+                    <a href="https://discord.com/api/oauth2/authorize?client_id=1031650762310299719&permissions=8&scope=bot"
+                        target="_blank" class="btn btn-primary" style="float: right;">サーバー導入リンク</a><br>
                 </div>
-                </p>
-                <p><a href="https://discord.com/api/oauth2/authorize?client_id=1031650762310299719&permissions=8&scope=bot"
-                        target="_blank" class="btn btn-primary">サーバー導入リンク</a></p>
-                <h2 id="team">チーム分けbot</h2>
-                <p>ナワバリバトル用チーム分けbotです。<br>フェス中に同じチームのメンバーが5人以上いるときなどに便利かなと思い作りました。<br>
-                    5人→3・2、7人→4・3、9人→3・3・3 といったように均等にチーム分けを行います。<br><br>
+                <div class="article">
+                    <h2 id="team">チーム分けbot</h2>
+                    <p>
+                        ナワバリバトル用チーム分けbotです。フェス中に同じチームのメンバーが5人以上いるときなどに便利かなと思い作りました。
+                    </p>
+                    <p>
+                        5人→3・2、7人→4・3、9人→3・3・3 といったように均等にチーム分けを行います。
+                    </p>
                     【使用方法】
-                <ul>
-                    <li style="list-style-type:decimal;">1人が「チーム分け」入力でbot呼び出し</li>
-                    <li style="list-style-type:decimal;">参加者は🦑リアクションボタン押下で登録(15秒以内)</li>
-                    <li style="list-style-type:decimal;">時間経過後、チャットに各チームとそのメンバーが返される。</li>
-                </ul>
-                <br>
-                【使用例】<br><br>
-                <div class="img">
-                    <img src="img/144241.png" alt="tbot">
+                    <ul>
+                        <li style="list-style-type:decimal;">1人が「チーム分け」入力でbot呼び出し</li>
+                        <li style="list-style-type:decimal;">参加者は🦑リアクションボタン押下で登録(15秒以内)</li>
+                        <li style="list-style-type:decimal;">時間経過後、チャットに各チームとそのメンバーが返される。</li>
+                    </ul>
+                    【使用例】
+                    <div class="img">
+                        <img src="img/144241.png" alt="tbot">
+                    </div>
+                    <a href="https://discord.com/api/oauth2/authorize?client_id=1034500481885679636&permissions=8&scope=bot"
+                        target="_blank" class="btn btn-primary" style="float: right;">サーバー導入リンク</a><br>
+                    【今後の展望】
+                    <ul>
+                        <li>時間だけなくコマンド入力でも登録を締め切る機能をつけたい</li>
+                        <li>embedsを使って登録ボタンをよりわかりやすくしたい</li>
+                    </ul>
                 </div>
-                </p>
-                <p><a href="https://discord.com/api/oauth2/authorize?client_id=1034500481885679636&permissions=8&scope=bot"
-                        target="_blank" class="btn btn-primary">サーバー導入リンク</a></p>
-                <p>【今後の展望】</p>
-                <ul>
-                    <li>時間だけなくコマンド入力でも登録を締め切る機能をつけたい</li>
-                    <li>embedsを使って登録ボタンをよりわかりやすくしたい</li>
-                </ul><br>
-                <h2 id="poke">ポケモンサーチbot</h2>
-                <p>ポケモンの名前から<a href="https://yakkun.com/" target="_blank">ポケモン徹底攻略</a>の該当ページを表示させるbotです。<br>
-                    新作「スカーレット・バイオレット」に向けて作りました。みんな買おう。<br><br>
+                <div class="article">
+                    <h2 id="poke">ポケモンサーチbot</h2>
+                    <p>
+                        ポケモンの名前から<a href="https://yakkun.com/" target="_blank">ポケモン徹底攻略</a>の該当ページを表示させるbotです。
+                        新作「スカーレット・バイオレット」に向けて作りました。みんな買おう。
+                    </p>
                     【使用方法】
-                <ul>
-                    <li style="list-style-type:decimal;">ポケモンの名前を入力する(カタカナで)</li>
-                    <li style="list-style-type:decimal;">そのポケモンが<a
-                            href="https://wiki.ポケモン.com/wiki/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8"
-                            target="_blank">ポケモンwiki</a>上に存在すれば図鑑ナンバーを取得</li>
-                    <li style="list-style-type:decimal;">図鑑ナンバーをもとに、<a href="https://yakkun.com/"
-                            target="_blank">ポケモン徹底攻略</a>の該当ページを表示させる</li>
-                </ul><br>
-                【使用例】<br><br>
-                <div class="img">
-                    <img src="img/151658.png" alt="pokebot">
+                    <ul>
+                        <li style="list-style-type:decimal;">ポケモンの名前を入力する(カタカナで)</li>
+                        <li style="list-style-type:decimal;">そのポケモンが<a
+                                href="https://wiki.ポケモン.com/wiki/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8"
+                                target="_blank">ポケモンwiki</a>上に存在すれば図鑑ナンバーを取得</li>
+                        <li style="list-style-type:decimal;">図鑑ナンバーをもとに、<a href="https://yakkun.com/"
+                                target="_blank">ポケモン徹底攻略</a>の該当ページを表示させる</li>
+                    </ul>
+                    【使用例】
+                    <div class="img">
+                        <img src="img/151658.png" alt="pokebot">
+                    </div>
+
+                    <a href="https://discord.com/api/oauth2/authorize?client_id=1036406345932492800&permissions=8&scope=bot"
+                        target="_blank" class="btn btn-primary"  style="float: right;">サーバー導入リンク</a><br>
+                    【今後の展望】
+                    <ul>
+                        <li>素早さなど特定のステータスを比較する機能をつけたい</li>
+                    </ul>
                 </div>
-
-                </p>
-                <p><a href="https://discord.com/api/oauth2/authorize?client_id=1036406345932492800&permissions=8&scope=bot"
-                        target="_blank" class="btn btn-primary">サーバー導入リンク</a></p>
-                <p>【今後の展望】</p>
-                <ul>
-                    <li>素早さなど特定のステータスを比較する機能をつけたい</li>
-                </ul><br>
-
-                <h2 id="uno">うのちゃんbot</h2>
-                <p>おふざけです。リア友の画像をランダムに表示させたり、クイズを出題したりします。<br>
-                    本人公認ですが彼はこのbotのことを呪物と呼んでいます。おもろいです。<br><br>
+                <div class="article">
+                    <h2 id="uno">うのちゃんbot</h2>
+                    <p>
+                        おふざけです。リア友の画像をランダムに表示させたり、クイズを出題したりします。
+                        本人公認ですが彼はこのbotのことを呪物と呼んでいます。おもろいです。
+                    </p>
                     【コマンド一覧】
-                <ul>
-                    <li>「うのちゃん」等特定キーワード入力・・・ランダムに画像とその説明を表示</li>
-                    <li>「うのちゃん検定」・・・彼に関するクイズ出題（まあまあムズイ）</li>
-                    <li>その他、隠しコマンド多数あり</li>
-                </ul><br>
-                【使用例】<br><br>
-                <div class="img">
-                    <img src="img/155958.png" alt="pokebot">
+                    <ul>
+                        <li>「うのちゃん」等特定キーワード入力・・・ランダムに画像とその説明を表示</li>
+                        <li>「うのちゃん検定」・・・彼に関するクイズ出題（まあまあムズイ）</li>
+                        <li>その他、隠しコマンド多数あり</li>
+                    </ul>
+                    【使用例】
+                    <div class="img">
+                        <img src="img/155958.png" alt="pokebot">
+                    </div><br>
+                    【今後の展望】
+                    <ul>
+                        <li>検定の難易度を選べるようにしたい</li>
+                        <li>配列・オブジェクトの整理</li>
+                        <li>embedsを使って正解不正解画面を統一したい</li>
+                    </ul>
                 </div>
-                </p>
-                <p>【今後の展望】</p>
-                <ul>
-                    <li>検定の難易度を選べるようにしたい</li>
-                    <li>配列・オブジェクトの整理</li>
-                    <li>embedsを使って正解不正解画面を統一したい</li>
-                </ul><br>
-
-                <h2 id="samon">サーモンランタイマーbot【開発中】</h2>
-                <p>サーモンランのスケジュール更新時にお知らせしてくれるbotです。<br>
-                    40時間ごとに自動で特定のサーバーに通知が行くようにします。<br><br>
+                <div class="article">
+                    <h2 id="samon">サーモンランタイマーbot【開発中】</h2>
+                    <p>
+                        サーモンランのスケジュール更新時にお知らせしてくれるbotです。
+                        40時間ごとに自動で特定のサーバーに通知が行くようにします。
+                    </p>
                     【使用方法】
-                <ul>
-                    <li style="list-style-type:decimal;">導入する。おわり！！</li>
-                </ul><br>
-                【使用例】<br><br>
-                <div class="img">
-                    <img src="img/155834.png" alt="pokebot">
+                    <ul>
+                        <li style="list-style-type:decimal;">導入する。おわり！！</li>
+                    </ul>
+                    【使用例】
+                    <div class="img">
+                        <img src="img/155834.png" alt="pokebot">
+                    </div><br>
+                    【今後の展望】
+                    <ul>
+                        <li>現状いろんなbotがかなりの頻度で止まっちゃうのでタイマー系はむずい</li>
+                        <li>ステージとか編成ブキも取得できたらいいよね</li>
+                    </ul>
                 </div>
-
-                </p>
-                <p>【今後の展望】</p>
-                <ul>
-                    <li>現状いろんなbotがかなりの頻度で止まっちゃうのでタイマー系はむずい</li>
-                    <li>ステージとか編成ブキも取得できたらいいよね</li>
-                </ul><br>
-            </div>
-            <div id="footer">
-                <hr>
-                ©2022 sola_labo <br>
             </div>
         </div>
-    </div>
-</body>
 
-</html>
+        <div class="localNavigation">
+            <p></p>
+        </div>
+
+    </main>
+    <footer>
+        ©2022 sola_labo 
+    </footer>
+
+</body>
